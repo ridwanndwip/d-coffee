@@ -546,6 +546,20 @@ video {
   height: auto;
 }
 
+/* .owl-theme .owl-dots .owl-dot span{
+  width: 20px;
+  height: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #869791;
+  margin: 0 3px;
+  transition: all .7s;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  width: 50px;
+  background-color: #976e42;
+} */
+
 .container {
   width: 100%;
 }

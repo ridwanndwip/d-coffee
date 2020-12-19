@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Public/assets/owl-carousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./Public/assets/owl-carousel/css/owl.carousel.min.css">
     <title>Document</title>
 </head>
-<body class="font-poppins px-40">
+
+<body class="font-poppins">
 
     <!-- Navbar -->
-    <nav class="flex justify-between mt-10">
+    <nav class="flex justify-between mt-10 px-40">
         <h1 class="block font-semibold text-xl"> <span class="text-color1">D'</span>Coffee</h1>
         <ul class="flex gap-6">
             <li>Home</li>
@@ -23,7 +27,7 @@
     </nav>
 
     <!-- Hero -->
-    <div class="bg-color2 text-white mt-10 grid grid-cols-2">
+    <div class="bg-color2 text-white mt-10 grid grid-cols-2 mx-40">
         <div class="pt-16">
             <h1 class="text-2xl ml-14 font-medium w-80 leading-10"> Make your Day Happy with a Cup of Coffee.</h1>
             <h4 class="text-color4 w-96 ml-14 text-sm leading-7 mt-8">d'coffee is the best choice if you need a cozy and imaginative place. Find your happines here with us.</h4>
@@ -34,7 +38,7 @@
             <img src="./Public/assets/pict/hero1.jpg" alt="hero1" class="w-full mt-4">
         </div>
     </div>
-    <div class="-mt-24 bg-white h-full p-9 shadow-lg">
+    <div class="-mt-24 bg-white h-full p-9 shadow-lg mx-40">
         <ul class="flex gap-24 ml-10">
             <li> <span class="font-semibold"> 20+ </span> menus </li>
             <li> <span class="font-semibold"> 15+ </span> facilities </li>
@@ -43,7 +47,7 @@
     </div>
 
     <!-- History Of Us -->
-    <div class="mt-48 flex flex-row justify-between mb-48">
+    <div class="mt-48 flex flex-row justify-between mb-48 px-40">
         <div>
             <h1 class="mt-10 font-medium text-2xl"> History Of Us</h1>
             <h3 class="mt-14 text-gray-600 w-4/5 leading-8"> Founded in December 2013 by three young man from Bali. D'Coffee comes from an idea that everyone can enjoy coffee and can find some imaginations. It's all started at a traditional market on Bandung, Bali.</h3>
@@ -56,7 +60,7 @@
 
     <!-- Make With Love -->
 
-    <div class="mt-48 grid grid-cols-2 justify-between mb-48">
+    <div class="mt-48 grid grid-cols-2 justify-between mb-48 px-40">
         <div class="bg-green-400">   
             <img src="./Public/assets/pict/barista4.jpg" alt="">
         </div>
@@ -66,5 +70,77 @@
             <button class="bg-color1 py-1 px-6 mt-8 text-white"> Menu List <span class="text-2xl inline-block -mt-1">&#8594;</span></button>
         </div>
     </div>
+
+    <!-- Best Seller -->
+    
+    <div class="text-center px-40">
+        <h1 class="font-medium text-2xl"> Best Seller </h1>
+        <h3 class="mt-10 text-gray-600 w-1/2 mx-auto"> Every weekend we always check out best seller and it's really recommended for you.</h3>
+    </div>
+
+    <!-- Lets Find Us -->
+    <div class="grid grid-cols-2 my-48 text-white px-40">
+        <img src="./Public/assets/pict/vektorMap.png" alt="" class="block">
+        <div class="bg-color2">
+            <h1 class="mt-10 text-center font-medium text-2xl"> Lets Find Us.</h1>
+            <h3 class="mt-10 ml-8"> Address <br> Jl.Batang Hari no 40x Pedungan-Denpasar</h3>
+            <h3 class="mt-10 ml-8"> Email <br> dcoffee@gmail.com </h3>
+            <h3 class="mt-10 ml-8"> Phone <br> 0361 459*****</h3>
+        </div>
+    </div>
+
+    <!-- Testi -->
+
+    <!-- Come and Feel the Pleasure -->
+    <div class="mb-24 px-40">
+        <img src="./Public/assets/pict/Banner.png" alt="" class="rounded-lg">
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-color2 w-full text-white h-28">
+        <h1 class="block font-semibold text-xl pt-5 text-center"> <span class="text-color1">D'</span>Coffee</h1>
+    </div>
+
+    <!-- Carousel -->
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+    </div>
+
+    <!-- SCript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+   <script src="./Public/assets/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            nav:false,
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:3,
+                },
+                1000:{
+                    items:5,
+                    loop:false
+                }
+            }
+        })
+    </script>
 </body>
 </html>
